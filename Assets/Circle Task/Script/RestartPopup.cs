@@ -21,16 +21,10 @@ public class RestartPopup : MonoBehaviour
         restartPanel.transform.localScale = Vector3.zero;
         restartPanel.transform.DOScale(1f, 0.4f).SetEase(Ease.OutBack);
 
-        Invoke("ClosePopup", 3f);
+       
     }
 
-    public void ClosePopup()
-    {
-        restartPanel.transform.DOScale(0f, 0.3f).OnComplete(() =>
-        {
-            restartPanel.SetActive(false);
-        });
-    }
+   
 
     public void RestartGame()
     {

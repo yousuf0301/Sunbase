@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Circle Task/Scene/Circle.unity
+    path: Assets/Circle Task/Scene/CircleScene.unity
     guid: 128176c178fcdbe4fb1df33ad5f7c503
   - enabled: 1
     path: Assets/API Task/Scene/API.unity
